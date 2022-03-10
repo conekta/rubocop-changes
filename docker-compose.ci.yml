@@ -1,0 +1,3 @@
+services:
+  pt-multiplexer-client:
+    image: pt-multiplexer-client
