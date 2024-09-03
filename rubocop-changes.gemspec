@@ -22,7 +22,8 @@ Gem::Specification.new do |spec|
 
   spec.metadata = {
     'source_code_uri' => 'https://github.com/fcsonline/rubocop-changes',
-    'bug_tracker_uri' => 'https://github.com/fcsonline/rubocop-changes/issues'
+    'bug_tracker_uri' => 'https://github.com/fcsonline/rubocop-changes/issues',
+    'github_repo' => 'ssh://github.com/conekta/rubocop-changes'
   }
 
   # Specify which files should be added to the gem when it is released.
