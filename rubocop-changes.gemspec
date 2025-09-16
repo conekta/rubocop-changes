@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'rubocop-changes'
   spec.version       = Rubocop::Changes::VERSION
   spec.platform      = Gem::Platform::RUBY
-  spec.required_ruby_version = '>= 2.5.0'
+  spec.required_ruby_version = '>= 3.3.0'
   spec.authors       = ['Ferran Basora']
   spec.email         = ['fcsonline@gmail.com']
 
@@ -41,7 +41,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'rubocop', '>= 1.0'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
-  spec.add_development_dependency 'byebug', '~> 10.0'
+  spec.add_development_dependency 'byebug', '~> 11.0'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
 end
